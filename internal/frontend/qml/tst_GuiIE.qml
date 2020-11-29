@@ -223,10 +223,10 @@ Window {
 
         ListModel{
             id: accountsModel
-            ListElement{ account : "ie"                                           ; status : "connected";    isExpanded: false; isCombinedAddressMode: false; hostname : "127.0.0.1"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;DoYouKnowAboutAMovieCalledTheHorriblySlowMurderWithExtremelyInefficientWeapon@thatYouCanFindForExampleOnyoutube.com" }
-            ListElement{ account : "exteremelongnamewhichmustbeeladedinthemiddleoftheaddress@protonmail.com" ; status : "connected";    isExpanded: true;  isCombinedAddressMode: true;  hostname : "127.0.0.1"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu"                                                        }
-            ListElement{ account : "ie2@protonmail.com"                           ; status : "disconnected"; isExpanded: false; isCombinedAddressMode: false; hostname : "127.0.0.1"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu"                                                        }
-            ListElement{ account : "many@protonmail.com" ; status : "connected";    isExpanded: true;  isCombinedAddressMode: true;  hostname : "127.0.0.1"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;"}
+            ListElement{ account : "ie"                                           ; status : "connected";    isExpanded: false; isCombinedAddressMode: false; hostname : "192.168.1.27"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;DoYouKnowAboutAMovieCalledTheHorriblySlowMurderWithExtremelyInefficientWeapon@thatYouCanFindForExampleOnyoutube.com" }
+            ListElement{ account : "exteremelongnamewhichmustbeeladedinthemiddleoftheaddress@protonmail.com" ; status : "connected";    isExpanded: true;  isCombinedAddressMode: true;  hostname : "192.168.1.27"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu"                                                        }
+            ListElement{ account : "ie2@protonmail.com"                           ; status : "disconnected"; isExpanded: false; isCombinedAddressMode: false; hostname : "192.168.1.27"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu"                                                        }
+            ListElement{ account : "many@protonmail.com" ; status : "connected";    isExpanded: true;  isCombinedAddressMode: true;  hostname : "192.168.1.27"; password : "ZI9tKp+ryaxmbpn2E12"; security : "StarTLS"; portSMTP : 1025; portIMAP : 1143; aliases : "ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;ie@pm.com;jaku@pm.com;hu@hu.hu;"}
         }
 
         ListModel{
@@ -947,7 +947,7 @@ Window {
                 "account" : testgui.winMain.dialogAddUser.username,
                 "status" : "connected",
                 "isExpanded":true,
-                "hostname" : "127.0.0.1",
+                "hostname" : "192.168.1.27",
                 "password" : "ZI9tKp+ryaxmbpn2E12",
                 "security" : "StarTLS",
                 "portSMTP" : 1025,
