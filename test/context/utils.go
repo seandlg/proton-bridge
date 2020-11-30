@@ -30,7 +30,7 @@ import (
 
 func waitForPort(port int, timeout time.Duration) error {
 	return waitUntilTrue(timeout, func() bool {
-		conn, err := net.DialTimeout("tcp", "192.168.1.27:"+strconv.Itoa(port), timeout)
+		conn, err := net.DialTimeout("tcp", "192.168.1.124:"+strconv.Itoa(port), timeout)
 		if err != nil {
 			return false
 		}

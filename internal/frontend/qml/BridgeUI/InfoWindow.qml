@@ -85,7 +85,7 @@ Window {
         Grid {
             columns: 2
             rowSpacing: Style.main.fontSize
-            TextLabel { text: qsTr("Hostname", "in configuration screen, displays the server hostname (192.168.1.27)") + ":"} TextValue { text: root.accData.hostname }
+            TextLabel { text: qsTr("Hostname", "in configuration screen, displays the server hostname (192.168.1.124)") + ":"} TextValue { text: root.accData.hostname }
             TextLabel { text: qsTr("Port", "in configuration screen, displays the server port (ex. 1025)") + ":"} TextValue { text: root.accData.portIMAP }
             TextLabel { text: qsTr("Username", "in configuration screen, displays the username to use with the desktop client") + ":"} TextValue { text: root.address          }
             TextLabel { text: qsTr("Password", "in configuration screen, displays the Bridge password to use with the desktop client") + ":"} TextValue { text: root.accData.password }
@@ -99,7 +99,7 @@ Window {
         Grid {
             columns: 2
             rowSpacing: Style.main.fontSize
-            TextLabel { text: qsTr("Hostname", "in configuration screen, displays the server hostname (192.168.1.27)") + ":"} TextValue { text: root.accData.hostname }
+            TextLabel { text: qsTr("Hostname", "in configuration screen, displays the server hostname (192.168.1.124)") + ":"} TextValue { text: root.accData.hostname }
             TextLabel { text: qsTr("Port", "in configuration screen, displays the server port (ex. 1025)") + ":"} TextValue { text: root.accData.portSMTP }
             TextLabel { text: qsTr("Username", "in configuration screen, displays the username to use with the desktop client") + ":"} TextValue { text: root.address          }
             TextLabel { text: qsTr("Password", "in configuration screen, displays the Bridge password to use with the desktop client") + ":"} TextValue { text: root.accData.password }

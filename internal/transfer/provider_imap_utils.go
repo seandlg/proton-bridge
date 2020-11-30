@@ -72,7 +72,7 @@ func imapClientDial(addr string) (IMAPClientProvider, error) {
 
 func imapClientDialHelper(addr string) (*imapClient.Client, error) {
 	host, _, _ := net.SplitHostPort(addr)
-	if host == "192.168.1.27" {
+	if host == "192.168.1.124" {
 		return imapClient.Dial(addr)
 	}
 

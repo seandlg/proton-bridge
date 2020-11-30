@@ -79,7 +79,7 @@ func (ctx *TestContext) GetTransferRemoteIMAPServer() *mocks.IMAPServer {
 	}
 
 	port := 21300 + rand.Intn(100)
-	ctx.transferRemoteIMAPServer = mocks.NewIMAPServer("user", "pass", "192.168.1.27", strconv.Itoa(port))
+	ctx.transferRemoteIMAPServer = mocks.NewIMAPServer("user", "pass", "192.168.1.124", strconv.Itoa(port))
 
 	ctx.transferRemoteIMAPServer.Start()
 	ctx.addCleanupChecked(func() error {

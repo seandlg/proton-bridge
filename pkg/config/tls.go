@@ -44,13 +44,13 @@ var tlsTemplate = x509.Certificate{ //nolint[gochecknoglobals]
 		Country:            []string{"CH"},
 		Organization:       []string{"Proton Technologies AG"},
 		OrganizationalUnit: []string{"ProtonMail"},
-		CommonName:         "192.168.1.27",
+		CommonName:         "192.168.1.124",
 	},
 	KeyUsage:              x509.KeyUsageKeyEncipherment | x509.KeyUsageDigitalSignature | x509.KeyUsageCertSign,
 	ExtKeyUsage:           []x509.ExtKeyUsage{x509.ExtKeyUsageServerAuth, x509.ExtKeyUsageClientAuth},
 	BasicConstraintsValid: true,
 	IsCA:                  true,
-	IPAddresses:           []net.IP{net.ParseIP("192.168.1.27")},
+	IPAddresses:           []net.IP{net.ParseIP("192.168.1.124")},
 	NotBefore:             time.Now(),
 	NotAfter:              time.Now().Add(20 * 365 * 24 * time.Hour),
 }
@@ -86,7 +86,7 @@ func GetTLSConfig(cfg tlsConfiger) (tlsConfig *tls.Config, err error) {
 		}
 	}
 
-	tlsConfig.ServerName = "192.168.1.27"
+	tlsConfig.ServerName = "192.168.1.124"
 	tlsConfig.ClientAuth = tls.VerifyClientCertIfGiven
 
 	caCertPool := x509.NewCertPool()

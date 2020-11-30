@@ -19,5 +19,5 @@ package bridge
 
 // Host settings.
 const (
-	Host = "192.168.1.27"
+	Host = "192.168.1.124"
 )
